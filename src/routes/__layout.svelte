@@ -2,7 +2,9 @@
   import Header from "$lib/header/Header.svelte";
   import "../app.css";
 
+  // This breaks
   const test = "$#";
+  // Putting $# in a comment also breaks
 </script>
 
 <style>
